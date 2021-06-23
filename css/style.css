@@ -1,0 +1,71 @@
+/*tipos de texto*/
+.texto_1{font-size:x-large;
+    font-family: 'Berkshire Swash', cursive;}
+.texto_2{font-size: large;
+    font-family: 'Righteous', cursive;}
+.clearfix{font-size: x-large;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;}
+
+/*imagens tabela*/
+.tabela4{padding-top: 25px;}
+
+
+
+/*botoes JOGAR*/
+.botao{background-color: blue;
+      width: 19.4%;  
+}
+.botao2{background-color: rgb(255, 0, 0);
+    width: 19.4%;  
+}
+.botao3{background-color: rgb(255, 179, 0);
+    width: 19.4%;  
+}
+.botao4{background-color: rgb(0, 234, 255);
+    width: 19.4%;  
+}
+
+
+/*teste*/
+nav ul{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+nav ul li {
+            text-align: center;
+            width: 100%;
+}
+nav ul li a {
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            text-decoration: none;
+}
+
+header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        padding: 20px;    
+}
+header p{
+        margin-bottom: 2em;
+}
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:600px; } */
+    }
+@media only screen and (max-device-width: 700px) {
+     /* .menu { width:400px; } */
+     }
