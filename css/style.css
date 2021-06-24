@@ -10,21 +10,12 @@
 /*imagens tabela*/
 .tabela4{padding-top: 25px;}
 
+/*rodapé*/
+.rodape {
+    background-color: rgba(0, 0, 0, 0.822);
+}
 
 
-/*botoes JOGAR*/
-.botao{background-color: blue;
-      width: 19.4%;  
-}
-.botao2{background-color: rgb(255, 0, 0);
-    width: 19.4%;  
-}
-.botao3{background-color: rgb(255, 179, 0);
-    width: 19.4%;  
-}
-.botao4{background-color: rgb(0, 234, 255);
-    width: 19.4%;  
-}
 
 
 /*teste*/
@@ -54,7 +45,8 @@ header {
         background-repeat: no-repeat;
         background-position: center;
         text-align: center;
-        padding: 20px;    
+        padding: 20px;  
+        background-color: rgba(143, 112, 112, 0.945);  
 }
 header p{
         margin-bottom: 2em;
