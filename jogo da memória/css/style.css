@@ -83,6 +83,10 @@
 #imgGameOver{
 	margin-top: 100px;
 }
+/*rodapé*/
+.rodape {
+    background-color: rgba(0, 0, 0, 0.822);
+}
 
 @media only screen and (max-device-width: 900px) {
     /* .menu { width:100%; } */

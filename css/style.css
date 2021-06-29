@@ -6,6 +6,19 @@
 .clearfix{font-size: x-large;
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;}
+.texto_memoria{
+    font-family: 'Staatliches', cursive;
+    text-align: justify;
+    font-size: large;
+    padding-top: 70px;
+}
+.texto_velha{
+    font-family: 'Staatliches', cursive;
+    text-align: justify;
+    font-size: large;
+    padding-top: 70px;
+}
+    
 
 /*imagens tabela*/
 .tabela4{padding-top: 25px;}
