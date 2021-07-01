@@ -5,8 +5,9 @@
 
 .body2{
 	text-align: center;
-	background-color: #555;
+	background-color: rgb(143, 143, 143);
 	padding: 200px;
+	font-size: x-large;
 }
 
 #game{
