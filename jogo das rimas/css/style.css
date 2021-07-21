@@ -1,0 +1,101 @@
+*{
+	margin: 10;
+	padding: 10;
+}
+
+.body2{
+	text-align: center;
+	background-color: rgb(143, 143, 143);
+	padding: 200px;
+	font-size: x-large;
+}
+
+#game{
+	position: relative;
+	width: 1335px;
+	height: 510px;
+	border: 5px solid rgb(41, 41, 41);
+	border-radius: 10px;
+	margin: 10px auto;
+	background-color: #050505;
+}
+			
+.card{
+	width: 160px;
+	height: 240px;
+	perspective: 600px;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.face{
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: all 1s;
+	backface-visibility: hidden;
+}
+
+.front{
+	transform: rotateY(-180deg);
+}
+
+.flipped.front{
+	transform: rotateY(0deg);
+}
+
+.back{
+	background: url(../img/verso.jpg);
+}
+
+.flipped.back{
+	transform: rotateY(180deg);
+}
+
+.card:hover, .face.flipped{
+	box-shadow: 0 0 10px #aaa;
+}
+
+.face.flipped.match{
+	box-shadow: 0 0 10px #0f0;
+}
+
+#match{
+	position: relative;
+	margin: 0 auto;
+	top: 250px;
+	z-index: -1;
+	opacity: 1;
+	transition-property: top, opacity;
+	transition-duration: 1.5s;
+}
+
+#gameOver{
+	position: absolute;
+	top: 0;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: -2;
+}
+
+#imgGameOver{
+	margin-top: 100px;
+}
+/*rodapé*/
+.rodape {
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:600px; } */
+    }
+@media only screen and (max-device-width: 700px) {
+     /* .menu { width:400px; } */
+     }
+
