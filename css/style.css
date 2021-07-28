@@ -18,15 +18,25 @@
     font-size: large;
     padding-top: 70px;
 }
+/*tipos de texto*/
     
 
 /*imagens tabela*/
 .tabela4{padding-top: 25px;}
 
+.bg-image {height: 240;
+    width: 420;}
+    /*fim imagens tabela*/
+
+
 /*rodapé*/
 .rodape {
     background-color: #808080;
+    text-transform: uppercase;
+               color: black;
 }
+
+/*cabeçalho*/
 header {
 	background: #808080;
 	padding: 20px 0;
@@ -67,7 +77,7 @@ nav a:hover {
 	margin: 0 auto;
 	padding: 50px 0;
 }
-
+/*fim cabeçalho*/
 
 
 
