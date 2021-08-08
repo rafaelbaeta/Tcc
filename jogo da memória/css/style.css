@@ -86,7 +86,7 @@
 }
 
 header {
-	background: #808080;
+	background: #a201ff;
 	padding: 20px 0;
 }
 
@@ -116,7 +116,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #d8a42b;
 	text-decoration: underline;
 }
 
@@ -128,7 +128,9 @@ nav a:hover {
 
 /*rodapé*/
 .rodape {
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: #a201ff;
+    text-transform: uppercase;
+               color: #d8a42b;
 }
 
 @media only screen and (max-device-width: 900px) {

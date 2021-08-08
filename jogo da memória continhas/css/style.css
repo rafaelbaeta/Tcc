@@ -85,7 +85,7 @@
 }
 
 header {
-	background: #808080;
+	background: #a201ff;
 	padding: 20px 0;
 }
 
@@ -115,7 +115,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #d8a42b;
 	text-decoration: underline;
 }
 
@@ -123,4 +123,11 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+}
+
+/*rodapé*/
+.rodape {
+    background-color: #a201ff;
+    text-transform: uppercase;
+               color: #d8a42b;
 }

@@ -31,14 +31,14 @@
 
 /*rodapé*/
 .rodape {
-    background-color: #808080;
+    background-color: #a201ff;
     text-transform: uppercase;
-               color: black;
+               color: #d8a42b;
 }
 
 /*cabeçalho*/
 header {
-	background: #808080;
+	background: #a201ff;
 	padding: 20px 0;
 }
 
@@ -68,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #d8a42b;
 	text-decoration: underline;
 }
 
