@@ -52,9 +52,11 @@ h3 {
   text-align: center;
   background-color: rgb(39, 61, 156);
 }
+/*cabeçalho*/
 header {
 	background: #a201ff;
 	padding: 20px 0;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .caixa {
@@ -78,7 +80,7 @@ nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 36px;
 	text-decoration: none;
 }
 
@@ -92,6 +94,7 @@ nav a:hover {
 	margin: 0 auto;
 	padding: 50px 0;
 }
+/*fim cabeçalho*/
 
 
 @media screen and (max-width: 400px) {

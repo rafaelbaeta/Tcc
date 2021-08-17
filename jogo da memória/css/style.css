@@ -85,9 +85,11 @@
 	margin-top: 100px;
 }
 
+/*cabeçalho*/
 header {
 	background: #a201ff;
 	padding: 20px 0;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .caixa {
@@ -111,7 +113,7 @@ nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 36px;
 	text-decoration: none;
 }
 
@@ -125,6 +127,7 @@ nav a:hover {
 	margin: 0 auto;
 	padding: 50px 0;
 }
+/*fim cabeçalho*/
 
 /*rodapé*/
 .rodape {
