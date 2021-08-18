@@ -2,10 +2,11 @@
 	margin: 10;
 	padding: 10;
 }
-
+body{
+	background-color: rgb(143, 143, 143);
+}
 .body2{
 	text-align: center;
-	background-color: rgb(143, 143, 143);
 	padding: 200px;
 	font-size: x-large;
 }
