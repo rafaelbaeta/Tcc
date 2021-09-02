@@ -4,9 +4,12 @@
 body{font-family: "Open Sans";
   background-color: rgb(143, 143, 143);
 }
-.texto{text-align: center;
-  font-size:x-large ;
+.texto{
+	font-size:40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
+
 .body2 {
   margin: 0;
   padding: 200px;

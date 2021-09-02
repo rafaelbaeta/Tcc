@@ -2,13 +2,18 @@
 	margin: 10;
 	padding: 10;
 }
-
+body{
+	background-color: rgb(143, 143, 143);
+}
 .body2{
 	text-align: center;
-	background-color: #555;
 	padding: 200px;
 }
-
+.texto{
+	font-size:40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
 #game{
 	position: relative;
 	width: 1335px;
@@ -130,7 +135,9 @@ nav a:hover {
 
 /*rodapé*/
 .rodape {
+	padding: 10;
     background-color: #a201ff;
     text-transform: uppercase;
                color: #d8a42b;
+		
 }

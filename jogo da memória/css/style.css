@@ -10,7 +10,11 @@ body{
 	padding: 200px;
 	font-size: x-large;
 }
-
+.texto{
+	font-size:40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
 #game{
 	position: relative;
 	width: 1335px;
@@ -132,9 +136,11 @@ nav a:hover {
 
 /*rodapé*/
 .rodape {
+	padding: 10;
     background-color: #a201ff;
     text-transform: uppercase;
                color: #d8a42b;
+		
 }
 
 @media only screen and (max-device-width: 900px) {
